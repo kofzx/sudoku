@@ -71,7 +71,7 @@ class Grid {
 		}
 
 		// 检查不成功，进行标记
-		const marks = checker._matrixMarks;
+		const marks = checker.matrixMarks;
 		$rows.each((rowIndex, div) => {
 			$(div).children()
 				.each((colIndex, span) => {
